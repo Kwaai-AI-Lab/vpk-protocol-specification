@@ -1,22 +1,23 @@
-ToIP Template Specification
+Virtual Private Knowledge (VPK) Protocol Specification
 ==================
 
-**Specification Status**: v1.0 Draft
+**Specification Status**: v0.1 Draft
 
 **Latest Draft:**
 
-[https://github.com/trustoverip/specification-template](https://github.com/trustoverip/specification-template)
+[https://kwaai-ai-lab.github.io/vpk-protocol-specification/](https://kwaai-ai-lab.github.io/vpk-protocol-specification/)
 
 **Editors:**
 
-- [Kevin Griffin](https://github.com/m00sey), [GLEIF](https://gleif.org)
+- [Darren Warner](https://github.com/dazwin), [Kwaai AI Lab](https://www.kwaai.ai)
 
 **Contributors:**
 
 **Participate:**
 
-~ [GitHub repo](https://github.com/trustoverip/specification-template)
-~ [Commit history](https://github.com/trustoverip/specification-template/commits/main)
+~ [GitHub repo](https://github.com/Kwaai-AI-Lab/vpk-protocol-specification)
+~ [File a bug](https://github.com/Kwaai-AI-Lab/vpk-protocol-specification/issues)
+~ [Commit history](https://github.com/Kwaai-AI-Lab/vpk-protocol-specification/commits/main)
 
 ------------------------------------
 

@@ -1,11 +1,11 @@
 {
-  "name": "spec-up",
-  "version": "0.10.6",
-  "description": "Technical specification drafting tool that generates rich specification documents from markdown.",
+  "name": "vpk-protocol-specification",
+  "version": "0.1.0",
+  "description": "Virtual Private Knowledge (VPK) Protocol specification, rendered with Spec-Up.",
   "main": "./index",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/decentralized-identity/spec-up.git"
+    "url": "git+https://github.com/Kwaai-AI-Lab/vpk-protocol-specification.git"
   },
   "scripts": {
     "edit": "node -e \"require('./index')()\"",
@@ -13,18 +13,21 @@
     "dev": "node -e \"require('./index')({ dev: true })\""
   },
   "keywords": [
+    "vpk",
+    "virtual-private-knowledge",
+    "toip",
     "spec",
     "specs",
     "markdown",
     "editor",
     "standards"
   ],
-  "author": "Daniel Buchner",
+  "author": "Darren Warner (Kwaai AI Lab)",
   "license": "Apache 2.0",
   "bugs": {
-    "url": "https://github.com/decentralized-identity/spec-up/issues"
+    "url": "https://github.com/Kwaai-AI-Lab/vpk-protocol-specification/issues"
   },
-  "homepage": "https://github.com/decentralized-identity/spec-up#readme",
+  "homepage": "https://kwaai-ai-lab.github.io/vpk-protocol-specification/",
   "dependencies": {
     "@traptitech/markdown-it-katex": "3.3.0",
     "axios": "0.21.2",
