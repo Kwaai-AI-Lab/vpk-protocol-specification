@@ -1,22 +1,26 @@
-# Specification Template
+# Virtual Private Knowledge (VPK) Protocol Specification
 
-This is the working area for the Trust over IP specification template.
+This is the working area for the Virtual Private Knowledge (VPK) Protocol
+specification, a work item of the Trust over IP (ToIP) Foundation Technical
+Stack Working Group.
 
-* [Editor's Copy](https://trustoverip.github.io/specification-template/)
+VPK is a protocol for storing and searching knowledge on infrastructure its
+owner does not control, without disclosing that knowledge to the infrastructure
+operator. Knowledge Owners keep their source content locally and outsource only
+sealed vector representations to Storage Providers, which can answer searches
+but cannot read what they hold.
 
-## Using this template
+* [Editor's Draft](https://kwaai-ai-lab.github.io/vpk-protocol-specification/)
+* [Issues](https://github.com/Kwaai-AI-Lab/vpk-protocol-specification/issues)
 
-Two ways to use the template:
-* The green `Use this template` button in the upper right. Then select `Create new repository` or
-* When creating a new repository from the `Repository template` menu select `toip/specification-template`
+Editor: [Darren Warner](https://github.com/dazwin), [Kwaai AI Lab](https://www.kwaai.ai)
 
-After setting up your new repository you will need to configure GitHub pages.
+## Contributing to the specification
 
-Under `Settings -> Code and automation -> Pages` ensure the following settings are applied
-
-* Build and deployment -> Source -> Deploy from a branch
-* Build and deployment -> Branch -> gh-pages
-* Build and deployment -> Branch -> folder -> / (root)
+See [Editing the Specification](EditingTheSpec.md). The specification source is
+the set of Markdown files in [`spec/`](spec/), listed in order in
+[`specs.json`](specs.json). Merges to `main` are rendered by a GitHub Action
+and published to GitHub Pages from the `gh-pages` branch.
 
 ### Editing locally
 
@@ -25,8 +29,6 @@ In the root of the repository run `npm install` to install dependencies.
 Run `npm run render` to render the HTML under `docs/index.html` this can then be previewed in your browser.
 
 Run `npm run edit` to watch for changes and re-render the HTML.
-
-Be sure to remove references to `specification-template` in favor of your new specification!
 
 ### Experimental PDF generation
 
