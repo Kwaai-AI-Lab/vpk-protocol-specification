@@ -47,7 +47,47 @@ article a[href^="https://"]:not(.btn)::after,article a[href^=http]:not(.btn)::af
 
 :root{--anchor-scroll-offset:96px;scroll-behavior:auto}html{scroll-padding-top:var(--anchor-scroll-offset)}:target{scroll-margin-top:var(--anchor-scroll-offset)}body:not([hashscroll]) :target{animation:highlight-target 3.5s .25s ease}body:not([hashscroll]) dt:has(:target){animation:highlight-target-parent-dt 3.5s .25s ease}dl.terms-and-definitions-list>.highlight{background-color:#ff0!important;transition:background-color .3s ease-in-out}svg[icon]{width:1.25em;height:1.25em;vertical-align:text-top}@keyframes highlight-target{50%{background-color:#ff0}}@keyframes highlight-target-parent-dt{50%{background-color:#ff0;border:1px solid #00c8ff}}#svg{display:none}main *{overflow-wrap:anywhere;word-break:normal}.table-responsive{overflow-x:auto!important;-webkit-overflow-scrolling:touch;width:100%;max-width:100%}.table-responsive *{overflow-wrap:normal!important;word-break:normal!important;white-space:nowrap!important}dd td img{max-width:30px}.notice{margin:1em 0;padding:.5em .9em .55em .65em;border-left:.5em solid}.notice p{margin:.4em 0 0}.note{background:var(--note-bg);border-color:var(--note-border)}.note .notice-link{display:block;color:var(--note-text)}.issue{background:var(--issue-bg);border-color:var(--issue-border)}.issue .notice-link:before{display:block;color:var(--issue-text)}.warning{background:var(--warning-notice-bg);border-color:var(--warning-notice-border)}.warning .notice-link{display:block;color:var(--warning-notice-text)}.example{color:#cebe00;background:#1a1e23;border-left:.5em solid}.example .notice-link{display:block;color:inherit;font-size:1.1em;font-family:Heebo,sans-serif}.example pre[class*=language-]{padding:0;border-radius:0}.todo{background:var(--todo-bg);border-color:var(--todo-border)}.todo .notice-link{display:block;color:var(--todo-text)}.informative{background:var(--informative-bg);border-color:var(--informative-border)}.informative .notice-link{display:block;color:var(--informative-text)}.alert-primary{background-color:#f9fcff;border-color:#b2ebf2;color:#007e8a}.alert-secondary{background-color:#f5f5f5;border-color:#e0e0e0;color:#616161}.alert-success{background-color:#e8f5e9;border-color:#c8e6c9;color:#317c35}.alert-danger{background-color:#ffebee;border-color:#ef9a9a;color:#ce2c2c}.alert-warning{background-color:#fffde7;border-color:#fff9c4;color:#a06403}.alert-info{background-color:#e1f5fe;border-color:#b3e5fc;color:#0273b1}.alert-light{background-color:#f9f9f9;border-color:#eee;color:#424242}.alert-dark{background-color:#e0e0e0;border-color:#bdbdbd;color:#212121}.alert a{color:inherit;font-weight:700}.alert-primary a{color:#007e8a}.alert-success a{color:#317c35}.alert-danger a{color:#ce2c2c}.alert-warning a{color:#a06403}.alert-info a{color:#0273b1}.alert-dark a{color:#000}[data-bs-theme=dark] .alert-primary{background-color:#004d40;border-color:#00695c;color:#b2dfdb}[data-bs-theme=dark] .alert-secondary{background-color:#424242;border-color:#616161;color:#e0e0e0}[data-bs-theme=dark] .alert-success{background-color:#1b5e20;border-color:#2e7d32;color:#a5d6a7}[data-bs-theme=dark] .alert-danger{background-color:#b71c1c;border-color:#c62828;color:#fad1d1}[data-bs-theme=dark] .alert-warning{background-color:#a84f00;border-color:#ffb300;color:#ffe8a3}[data-bs-theme=dark] .alert-info{background-color:#01579b;border-color:#0277bd;color:#85d4f9}[data-bs-theme=dark] .alert-light{background-color:#303030;border-color:#424242;color:#e0e0e0}[data-bs-theme=dark] .alert-dark{background-color:#212121;border-color:#424242;color:#bdbdbd}[data-bs-theme=dark] .alert a{color:inherit;font-weight:700}[data-bs-theme=dark] .alert-primary a{color:#80cbc4}[data-bs-theme=dark] .alert-success a{color:#81c784}[data-bs-theme=dark] .alert-danger a{color:#ef5350}[data-bs-theme=dark] .alert-warning a{color:#ffca28}[data-bs-theme=dark] .alert-info a{color:#4fc3f7}[data-bs-theme=dark] .alert-dark a{color:#9e9e9e}.menu-toggle-btn{position:fixed!important;right:0;top:50%;transform:translateY(-50%);z-index:1040;border-top-right-radius:0!important;border-bottom-right-radius:0!important;border-right:none;padding:.75rem .5rem!important;margin:0!important;box-shadow:-2px 0 8px rgba(0,0,0,.15);transition:opacity .15s ease-in-out}.menu-toggle-btn svg{fill:currentColor}[data-bs-theme=dark] .menu-toggle-btn{box-shadow:-2px 0 8px rgba(0,0,0,.5)}body.offcanvas-backdrop .menu-toggle-btn,body:has(.offcanvas.show) .menu-toggle-btn,body:has(.offcanvas.showing) .menu-toggle-btn{opacity:0;pointer-events:none}@media print{.menu-toggle-btn{display:none!important}}#offcanvasSettings .btn-menu-item{border-radius:unset;width:100%;text-align:left;border:1px solid #dee2e6;background-color:var(--card-bg);color:var(--card-text);padding:10px 15px;margin-bottom:5px;transition:background-color .2s ease}#offcanvasSettings .btn-menu-item:hover{background-color:#e9ecef}</style>
           
-          
+          <style>/* custom.css *//* ==========================================================================
+   Custom CSS — Override any default styles here.
+
+   This file is loaded AFTER all other stylesheets, so your rules take
+   precedence. It is never overwritten by spec-up-t updates.
+
+   PDF-specific classes (apply only in the generated PDF):
+
+   .pdf-cover          — the cover page wrapper (title, logo, description)
+   .pdf-logo-container — the <a> element wrapping the logo image
+   .pdf-logo           — the logo <img> itself
+   .pdf-title          — the <h1> specification title on the cover
+   .pdf-description    — the <p> description text below the title
+   .pdf-toc            — the table-of-contents container
+   .pdf-toc-heading    — the "Contents" heading inside the TOC
+   .pdf-toc-list       — the <ul> list of TOC entries
+
+   Examples:
+
+   Make the cover logo smaller:
+   .pdf-logo { max-width: 80px; }
+
+   Shrink the cover title font:
+   .pdf-title { font-size: 2rem; }
+
+   Make the description italic and grey:
+   .pdf-description { color: #666; font-style: italic; }
+
+   Reduce TOC font size:
+   .pdf-toc-list { font-size: 0.9rem; }
+
+   Web view — make the header logo bigger:
+   #logo img { max-height: 60px; }
+
+   Target PDF only (body gets class "pdf-document" during PDF generation):
+   body.pdf-document { background: white; }
+
+   Target HTML view only:
+   body:not(.pdf-document) { background-color: #f5f5f5; }
+   ========================================================================== */
+</style>
           <script>function delegateEvent(e,t,n,a={}){return(a.container||document).addEventListener(e,e=>{let a=e.target.closest(t);a&&n(e,a)},a)}const skipAnimationFrame=e=>requestAnimationFrame(()=>requestAnimationFrame(e)),domReady=new Promise(e=>{document.addEventListener("DOMContentLoaded",t=>e())});
 customElements.define("slide-panels",class extends HTMLElement{static get observedAttributes(){return["open"]}constructor(){super(),this.addEventListener("pointerup",e=>{e.target===this&&this.close()})}get active(){return this.getAttribute("open")}toggle(e){this.active===e?this.close():this.open(e)}open(e){this.setAttribute("open",e)}close(){this.removeAttribute("open")}attributeChangedCallback(e,t,i){if("open"===e)for(let e of this.children)e.id===i?e.setAttribute("open",""):e.removeAttribute("open","")}}),customElements.define("detail-box",class extends HTMLElement{static get observedAttributes(){return["open"]}constructor(){super(),this.addEventListener("pointerup",e=>{e.target.hasAttribute("detail-box-toggle")&&(e.stopPropagation(),this.toggle())}),this.addEventListener("transitionend",e=>{let t=e.target;t.parentElement===this&&"SECTION"===t.tagName&&"height"===e.propertyName&&(t.style.height=this.hasAttribute("open")?"auto":null)})}toggle(){this.toggleAttribute("open")}attributeChangedCallback(e,t,i){if("open"===e)for(let e of this.children)"SECTION"===e.tagName&&(null!==i?e.offsetHeight<e.scrollHeight&&(e.style.height=e.scrollHeight+"px"):e.offsetHeight>0&&(e.style.height=e.offsetHeight+"px",e.style.height=0))}}),customElements.define("tab-panels",class extends HTMLElement{constructor(){super(),delegateEvent("click","tab-panels > nav > *",(e,t)=>{let i=t.parentElement;i.parentElement===this&&this.setAttribute("selected-index",Array.prototype.indexOf.call(i.children,t))},{container:this,passive:!0})}static get observedAttributes(){return["selected-index"]}attributeChangedCallback(e,t,i){domReady.then(()=>{if("selected-index"===e){let e=i||0,t=this.querySelector("nav");if(t.parentElement===this){let i=t.children,s=i[e];for(let e of i)e.removeAttribute("selected");s&&s.setAttribute("selected","");let r=Array.prototype.filter.call(this.children,e=>{if("DIV"===e.tagName)return e.removeAttribute("selected"),!0})[e];r&&r.setAttribute("selected","")}}})}});
 /*!
@@ -109,7 +149,7 @@ customElements.define("slide-panels",class extends HTMLElement{static get observ
       ],
       "source": "xref",
       "termId": "term:credential",
-      "lastUpdated": "2026-11-02T20:03:21.292Z"
+      "lastUpdated": "2026-11-02T20:32:15.916Z"
     }
   ]
 };</script>
@@ -541,8 +581,8 @@ This work is licensed under a Creative Commons Attribution 4.0 International Lic
                 <div id="build-info" class="small text-muted">
                     <div class="d-flex align-items-center mb-1">
                         <i class="bi bi-calendar-event me-2" aria-hidden="true"></i>
-                        <time class="timestamp" datetime="2026-11-02T20:03:20.636Z">
-                            Generated: 2026-11-02T20:03:20.636Z
+                        <time class="timestamp" datetime="2026-11-02T20:32:15.348Z">
+                            Generated: 2026-11-02T20:32:15.348Z
                         </time>
                     </div>
                     <div class="d-flex align-items-center mb-1">
