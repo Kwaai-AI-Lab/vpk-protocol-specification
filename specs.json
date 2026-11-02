@@ -3,7 +3,7 @@
     {
       "title": "Virtual Private Knowledge (VPK) Protocol Specification",
       "description": "Protocol for storing and searching knowledge on infrastructure its owner does not control, without disclosing that knowledge to the infrastructure operator.",
-      "author": "Darren Warner (Kwaai AI Lab)",
+      "author": "Darren Warner (Kwaai)",
       "spec_directory": "./spec",
       "spec_terms_directory": "terms-definitions",
       "output_path": "./docs",

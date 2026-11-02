@@ -7,7 +7,7 @@ _GitHub:_ <https://github.com/Kwaai-AI-Lab/vpk-protocol-specification>
 
 _Editors:_
 
-- Darren Warner, Kwaai AI Lab
+- Darren Warner, Kwaai
 
 _Contributors:_
 

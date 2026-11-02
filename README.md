@@ -13,7 +13,7 @@ but cannot read what they hold.
 - [Editor's Draft](https://kwaai-ai-lab.github.io/vpk-protocol-specification/)
 - [Issues](https://github.com/Kwaai-AI-Lab/vpk-protocol-specification/issues)
 
-Editor: [Darren Warner](https://github.com/dazwin), [Kwaai AI Lab](https://www.kwaai.ai)
+Editor: [Darren Warner](https://github.com/dazwin), [Kwaai](https://www.kwaai.ai)
 
 ## Contributing to the specification
 
