@@ -8,4 +8,3 @@ Any hyperlinked term not included in this section is referenced from one of the 
 
 - [ToIP Main Glossary](https://glossary.trustoverip.org)
 - [ToIP General IT Glossary](https://trustoverip.github.io/ctwg-general-glossary)
-- {{any other external glossary included in Spec-Up-T xrefs}}

@@ -53,4 +53,9 @@ The first sentence MUST be used if the section contains any normative requiremen
 
 ### Normative References
 
+- **[RFC2119]** Bradner, S., "Key words for use in RFCs to Indicate Requirement Levels", BCP 14, RFC 2119, March 1997, <https://www.rfc-editor.org/info/rfc2119>.
+- **[RFC8174]** Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words", BCP 14, RFC 8174, May 2017, <https://www.rfc-editor.org/info/rfc8174>.
+
+{{Add normative references for the identifier, credential, transport and cryptographic specifications that VPK depends on once those choices are made (for example, ToIP TSP, W3C DID Core and W3C Verifiable Credentials).}}
+
 ### Informative References
