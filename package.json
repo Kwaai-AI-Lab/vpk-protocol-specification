@@ -1,8 +1,24 @@
 {
-  "name": "spec-up-t-starterpack",
-  "version": "2.0.6",
+  "name": "vpk-protocol-specification",
+  "version": "0.1.0",
   "license": "Apache-2.0",
-  "description": "Quick setup for a specification with the Spec-Up-T tool.",
+  "description": "Virtual Private Knowledge (VPK) Protocol specification, rendered with Spec-Up-T.",
+  "author": "Darren Warner (Kwaai AI Lab)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kwaai-AI-Lab/vpk-protocol-specification.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kwaai-AI-Lab/vpk-protocol-specification/issues"
+  },
+  "homepage": "https://kwaai-ai-lab.github.io/vpk-protocol-specification/",
+  "keywords": [
+    "vpk",
+    "virtual-private-knowledge",
+    "toip",
+    "spec-up-t",
+    "specification"
+  ],
   "dependencies": {
     "dotenv": "^18.0.9",
     "spec-up-t": "^2.4.0"

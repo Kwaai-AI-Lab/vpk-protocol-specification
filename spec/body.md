@@ -15,7 +15,7 @@ The first sentence MUST be used if the section contains any normative requiremen
 
 {{Each new section or subsection SHOULD always begin with at least a sentence or paragraph introducing the purpose of that section.}}
 
-{{A bit about the [[ref: VTC]] for your info... (just showing an example glossary reference here in the text)}}
+{{A bit about the [[ref: Knowledge Owner]] for your info... (just showing an example glossary reference here in the text)}}
 
 {{When nesting sections it is RECOMMENDED to go no more than three levels deep. Use as many sections as is necessary to cover all the requirements of the specification, but keep the text and diagrams as concise as possible. [See this IETF guidance](https://www.ietf.org/archive/id/draft-flanagan-7322bis-07.html#name-body-of-the-memo).}}
 
@@ -52,5 +52,10 @@ The first sentence MUST be used if the section contains any normative requiremen
 {{Required. See the [IETF guidance](https://www.ietf.org/archive/id/draft-flanagan-7322bis-07.html#name-references-section) on how to add normative references and informative references.}}
 
 ### Normative References
+
+- **[RFC2119]** Bradner, S., "Key words for use in RFCs to Indicate Requirement Levels", BCP 14, RFC 2119, March 1997, <https://www.rfc-editor.org/info/rfc2119>.
+- **[RFC8174]** Leiba, B., "Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words", BCP 14, RFC 8174, May 2017, <https://www.rfc-editor.org/info/rfc8174>.
+
+{{Add normative references for the identifier, credential, transport and cryptographic specifications that VPK depends on once those choices are made (for example, ToIP TSP, W3C DID Core and W3C Verifiable Credentials).}}
 
 ### Informative References

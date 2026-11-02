@@ -1,31 +1,26 @@
-{{INSTRUCTIONS ABOUT THE USE OF THIS TEMPLATE: All editorial instructions are enclosed in {{double curly braces}} and MUST be either removed from or replaced in the specification document. All other text MUST be included in the specification document. NOTE: As of 2026, ToIP specifications are required to use [Spec-Up-T](https://trustoverip.github.io/spec-up-t-website/). It will automatically generate a table of contents for the entire specification document.}}
+# Virtual Private Knowledge (VPK) Protocol Specification
 
-# {{Document Title}}
+_Version:_ 0.1  
+_Document Status:_ Working Draft  
+_DOI:_ Not yet assigned  
+_GitHub:_ <https://github.com/Kwaai-AI-Lab/vpk-protocol-specification>
 
-_Version:_ {{MUST be in X.X or X.XX format}}  
-_Document Status:_ {{MUST be one of: Working Draft, Working Group Approved Deliverable, ToIP Approved Deliverable}}  
-_DOI:_ {{see [this wiki page](https://lf-toip.atlassian.net/wiki/spaces/HOME/pages/767787009/ToIP+Approved+Deliverable+Process#Persistent-DOI-Link) for instructions about how to add a DOI}}  
-_GitHub:_ {{MUST be the URL of the GitHub repository for this specification, e.g. <https://github.com/trustoverip/example-spec>}}
+_Editors:_
 
-_Editors:_ {{MUST list the full names, optional OrcID and official LF affiliations of each editor.}}
+- Darren Warner, Kwaai AI Lab
 
-- {{Editor 1, Org A}}
-- {{Editor 2, Org B}}
+_Contributors:_
 
-_Contributors:_ {{MUST list the full names and official LF affiliations of each substantial contributor — all other acknowledgements go in the Acknowledgements Appendix at the end.}}
-
-- {{Contributor 1, Org C}}
-- {{Contributor 2, Org A}}
+- None yet
 
 **Abstract**
 
-{{REQUIRED. MUST be a concise summary of the specification written so someone without domain-specific knowledge can quickly understand what it covers.}}
+The Virtual Private Knowledge (VPK) Protocol lets a person or organization store and search its knowledge on infrastructure it does not control, without disclosing that knowledge to the operator of that infrastructure. A Knowledge Owner keeps its source content locally and outsources only sealed vector representations to Storage Providers. A Storage Provider can answer searches over what it holds but cannot read it.
 
 **Intellectual Property Rights**
 
-This specification is provided under the [Joint Development Foundation (JDF) charter](https://cdn.platform.linuxfoundation.org/agreements/ToIP.pdf) for [Trust Over IP](https://trustoverip.org) (ToIP) and is subject to the intellectual property rights policy of the **{{insert name of}} Working Group**:
+This specification is provided under the [Joint Development Foundation (JDF) charter](https://cdn.platform.linuxfoundation.org/agreements/ToIP.pdf) for [Trust Over IP](https://trustoverip.org) (ToIP) and is subject to the intellectual property rights policy of the **Technology Stack Working Group**:
 
-{{modify the following bullets to reflect the IPR terms of the Working Group}}  
 _Copyright:_ [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)  
 _Patent:_ W3C Mode (based on the [W3C Patent Policy](https://www.w3.org/Consortium/Patent-Policy-20040205/))  
 _Source Code:_ [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)

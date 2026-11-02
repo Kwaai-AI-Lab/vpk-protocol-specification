@@ -1,13 +1,43 @@
-# ToIP Specification Template
+# Virtual Private Knowledge (VPK) Protocol Specification
 
-The purpose of this repo is for collaborating on development of a standard template for Trust Over IP (ToIP) technical specifications. This template will standardize the following elements:
+This is the working area for the Virtual Private Knowledge (VPK) Protocol
+specification, a work item of the Trust over IP (ToIP) Foundation Technology
+Stack Working Group.
 
-- Specification look and feel
-- Boilerplate sections (provenance, status, IPR, etc.)
-- Structure (e.g., standard section headings, order)
-- Formatting
-- Use of [Spec-Up-T](https://trustoverip.github.io/spec-up-t-website/) for glossary management
+VPK is a protocol for storing and searching knowledge on infrastructure its
+owner does not control, without disclosing that knowledge to the infrastructure
+operator. Knowledge Owners keep their source content locally and outsource only
+sealed vector representations to Storage Providers, which can answer searches
+but cannot read what they hold.
 
-The work on this repo, which began in March 2026, supercedes [an earlier ToIP spec template repo](https://github.com/trustoverip/specification-template) that was created: a) before ToIP came under LF Decentralized Trust, and b) before development of [Spec-Up-T](https://trustoverip.github.io/spec-up-t-website/). The intent is for this new ToIP spec template to be used for new ToIP specifications going forward.
+- [Editor's Draft](https://kwaai-ai-lab.github.io/vpk-protocol-specification/)
+- [Issues](https://github.com/Kwaai-AI-Lab/vpk-protocol-specification/issues)
 
-See [Discussions](https://github.com/trustoverip/toip-template/discussions) for more background.
+Editor: [Darren Warner](https://github.com/dazwin), [Kwaai AI Lab](https://www.kwaai.ai)
+
+## Contributing to the specification
+
+The specification is written in Markdown and rendered with
+[Spec-Up-T](https://trustoverip.github.io/spec-up-t-website/), following the
+[ToIP specification template](https://github.com/trustoverip/toip-template).
+
+- The specification source is in [`spec/`](spec/). The files are rendered in the
+  order listed under `markdown_paths` in [`specs.json`](specs.json).
+- Glossary terms live in [`spec/terms-definitions/`](spec/terms-definitions/),
+  one file per term.
+- Text in `{{double curly braces}}` is template guidance and must be replaced or
+  removed before the specification is published.
+
+Every push to `main` is rendered by the
+[Render and Deploy](.github/workflows/render-and-deploy.yml) workflow and
+published to GitHub Pages from the `gh-pages` branch. The rendered output in
+`docs/` is never committed.
+
+### Editing locally
+
+Run `npm install` once, then:
+
+- `npm run render` renders the specification to `docs/index.html`.
+- `npm run edit` watches for changes and re-renders.
+- `npm run menu` lists the other Spec-Up-T actions (PDF and DOCX export,
+  freezing a version, collecting external references).

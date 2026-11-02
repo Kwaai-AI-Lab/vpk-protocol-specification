@@ -1,9 +1,9 @@
 {
   "specs": [
     {
-      "title": "ToIP Specification Template",
-      "description": "Create technical specifications in markdown. Based on the original Spec-Up, extended with Terminology tooling",
-      "author": "Trust over IP Foundation",
+      "title": "Virtual Private Knowledge (VPK) Protocol Specification",
+      "description": "Protocol for storing and searching knowledge on infrastructure its owner does not control, without disclosing that knowledge to the infrastructure operator.",
+      "author": "Darren Warner (Kwaai AI Lab)",
       "spec_directory": "./spec",
       "spec_terms_directory": "terms-definitions",
       "output_path": "./docs",
@@ -15,12 +15,12 @@
         "appendix.md"
       ],
       "logo": "https://raw.githubusercontent.com/trustoverip/spec-up-t/refs/heads/master/src/install-from-boilerplate/boilerplate/static/logo.svg",
-      "logo_link": "https://github.com/trustoverip/spec-up-t",
+      "logo_link": "https://github.com/Kwaai-AI-Lab/vpk-protocol-specification",
       "favicon": "https://raw.githubusercontent.com/trustoverip/spec-up-t/refs/heads/master/src/install-from-boilerplate/boilerplate/static/favicon.ico",
       "source": {
         "host": "github",
-        "account": "trustoverip",
-        "repo": "toip-template"
+        "account": "Kwaai-AI-Lab",
+        "repo": "vpk-protocol-specification"
       },
       "external_specs": [
         {
