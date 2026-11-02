@@ -15,7 +15,7 @@ The first sentence MUST be used if the section contains any normative requiremen
 
 {{Each new section or subsection SHOULD always begin with at least a sentence or paragraph introducing the purpose of that section.}}
 
-{{A bit about the [[ref: Knowledge Owner]] for your info... (just showing an example glossary reference here in the text)}}
+{{A bit about the [[ref: VTC]] for your info... (just showing an example glossary reference here in the text)}}
 
 {{When nesting sections it is RECOMMENDED to go no more than three levels deep. Use as many sections as is necessary to cover all the requirements of the specification, but keep the text and diagrams as concise as possible. [See this IETF guidance](https://www.ietf.org/archive/id/draft-flanagan-7322bis-07.html#name-body-of-the-memo).}}
 

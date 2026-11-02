@@ -15,7 +15,7 @@ _Contributors:_
 
 **Abstract**
 
-The Virtual Private Knowledge (VPK) Protocol lets a person or organization store and search its knowledge on infrastructure it does not control, without disclosing that knowledge to the operator of that infrastructure. A Knowledge Owner keeps its source content locally and outsources only sealed vector representations to Storage Providers. A Storage Provider can answer searches over what it holds but cannot read it.
+The Virtual Private Knowledge (VPK) Protocol lets the owner or custodian of data scramble it before transmitting it to an untrusted storage provider, so that the data remains encrypted at rest and searchable in its scrambled form. The data owner runs its own embedding model and keeps its documents locally. The storage provider stores only encrypted vectors and returns similarity scores, and never sees the documents, the plaintext queries or the embedding model.
 
 **Intellectual Property Rights**
 

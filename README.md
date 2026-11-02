@@ -5,11 +5,12 @@ specification, a work item of the Trust over IP (ToIP) Foundation's
 [Virtual Private Knowledge Working Group](https://lf-toip.atlassian.net/wiki/spaces/HOME/pages/1180139521/Virtual+Private+Knowledge+Working+Group),
 within the Decentralized Trust Graph Working Group.
 
-VPK is a protocol for storing and searching knowledge on infrastructure its
-owner does not control, without disclosing that knowledge to the infrastructure
-operator. Knowledge Owners keep their source content locally and outsource only
-sealed vector representations to Storage Providers, which can answer searches
-but cannot read what they hold.
+VPK lets the owner or custodian of data scramble it before transmitting it to
+an untrusted storage provider, so that the data remains encrypted at rest and
+searchable in its scrambled form. The data owner runs its own embedding model
+and keeps its documents locally. The storage provider stores only encrypted
+vectors and returns similarity scores, and never sees the documents, the
+plaintext queries or the embedding model.
 
 - [Editor's Draft](https://kwaai-ai-lab.github.io/vpk-protocol-specification/)
 - [Issues](https://github.com/Kwaai-AI-Lab/vpk-protocol-specification/issues)
