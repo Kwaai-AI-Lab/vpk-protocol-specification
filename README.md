@@ -1,8 +1,9 @@
 # Virtual Private Knowledge (VPK) Protocol Specification
 
 This is the working area for the Virtual Private Knowledge (VPK) Protocol
-specification, a work item of the Trust over IP (ToIP) Foundation Technology
-Stack Working Group.
+specification, a work item of the Trust over IP (ToIP) Foundation's
+[Virtual Private Knowledge Working Group](https://lf-toip.atlassian.net/wiki/spaces/HOME/pages/1180139521/Virtual+Private+Knowledge+Working+Group),
+within the Decentralized Trust Graph Working Group.
 
 VPK is a protocol for storing and searching knowledge on infrastructure its
 owner does not control, without disclosing that knowledge to the infrastructure
